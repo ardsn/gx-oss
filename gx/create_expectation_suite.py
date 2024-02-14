@@ -5,7 +5,7 @@ from great_expectations.core.expectation_configuration import (
 
 context = gx.get_context()
 
-suite = context.add_expectation_suite(
+suite = context.add_or_update_expectation_suite(
     expectation_suite_name='my_suite'
 )
 
