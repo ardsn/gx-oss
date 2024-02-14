@@ -1,3 +1,6 @@
+# folders
 __pycache__/
 uncommitted/
 venv/
+# files
+.ge_store_backend_id 
