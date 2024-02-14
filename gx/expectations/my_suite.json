@@ -19,6 +19,15 @@
           "format": "markdown"
         }
       }
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_of_type",
+      "kwargs": {
+        "column": "c",
+        "mostly": 0.9,
+        "type_": "StringType"
+      },
+      "meta": {}
     }
   ],
   "ge_cloud_id": null,
